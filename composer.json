@@ -1,0 +1,25 @@
+{
+  "name": "csisztaiarnold/poc_todo",
+  "description": "POC Todo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Arnold Csisztai",
+      "email": "csisztai.arnold@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "filp/whoops": "^2.14",
+    "illuminate/database": "10.x-dev",
+    "fzaninotto/faker": "1.9.x-dev",
+    "guzzlehttp/guzzle": "^7.5@dev",
+    "miladrahimi/phprouter": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/"
+    }
+  }
+}

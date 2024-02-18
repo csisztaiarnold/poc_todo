@@ -1,0 +1,112 @@
+body {
+    padding-bottom: 30px;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+h2 {
+    padding: 20px 0 0 0;
+    margin-top: 20px;
+}
+
+h3.title {
+    font-size: 1.2em;
+}
+
+.task-item {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.due-date {
+    padding: 5px 0 0 0;
+    color: #946c00;
+}
+
+.new-task, .edit-task {
+    cursor: pointer;
+}
+
+.task-form {
+    display: block;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.task-form .delete, .delete-task, .edit-task {
+    float: right;
+    margin: 5px;
+}
+
+#pending, #done {
+    cursor: pointer;
+}
+
+.username {
+    font-size: 0.7em;
+    color: #888;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.flex-item {
+    padding: 0 10px;
+}
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
